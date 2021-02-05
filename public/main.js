@@ -1,1 +1,1 @@
-"use strict";function dinoDagen(){var n=3..toString();console.log("VILKEN DAG ÄR DIN DOLMIO DAG?!",n)}dinoDagen(),dinoDagen();
+"use strict";var moment=require("moment");function _interopDefaultLegacy(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}var moment__default=_interopDefaultLegacy(moment),sayHello=e=>{console.log(e),e.innerHTML="Hello!"};function run(){var e=document.getElementsByClassName("js_say-hello")[0];console.log(e),e&&sayHello(e);const t=document.getElementsByClassName("js_date-picker")[0];t&&(t.innerHTML=moment__default.default())}run();

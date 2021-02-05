@@ -12,9 +12,9 @@ function render(input, out, __component, component, state) {
 
   out.w("<h1>Välkommen till " +
     marko_escapeXml(input.label) +
-    "</h1><p>" +
+    "</h1><p class=js_say-hello>" +
     marko_escapeXml(input.msData) +
-    "</p>");
+    "</p><div class=js_date-picker></div><script src=/public/main.js></script>");
 }
 
 marko_template._ = marko_renderer(render, {

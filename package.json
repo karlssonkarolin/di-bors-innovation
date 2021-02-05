@@ -6,6 +6,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "marko": "^4.20.2",
+    "moment": "^2.29.1",
     "node-fetch": "^2.6.1",
     "rollup-plugin-uglify": "^6.0.4"
   },
